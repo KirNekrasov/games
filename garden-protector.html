@@ -53,7 +53,7 @@ else if(c=='2'){ctx.fillStyle=c2;ctx.fillRect(px+xs,py+ys,s,s);}
 const player={x:145,y:195,w:30,h:30,s:3,cd:0};
 let pies=[],eb=[],enemies=[],jams=[],score=0,lives=3,over=false,dir=1,wave=1,stars=[],hs=0,flash=0,flashTxt='';
 
-for(let i=0;i<60;i++)stars.push({x:Math.random()W,y:Math.random()H});
+for(let i=0;i<60;i++)stars.push({x:Math.random(),y:Math.random()H});
 
 function makeEnemies(){
 enemies=[];
